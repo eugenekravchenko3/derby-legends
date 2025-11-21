@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 import { useStore } from 'vuex';
 
 import { getHorseName } from "@/helpers/horseHelper";
-import { Race } from "@/types.ts";
+import { Race } from "@/types";
 
 const store = useStore();
 const bottomRef = ref<HTMLElement | null>(null);

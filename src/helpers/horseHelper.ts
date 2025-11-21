@@ -1,4 +1,4 @@
-import { Horse } from "@/src/types";
+import { Horse } from "@/types";
 
 const FINISH_LINE_PERCENTAGE = 85;
 

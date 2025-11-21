@@ -4,7 +4,7 @@ import { useStore } from 'vuex';
 
 import { RaceStatus } from '../types';
 import { getHorse, getHorseStyle } from "@/helpers/horseHelper";
-import { FINISH_LINE_PERCENTAGE, LANE_HEIGHT } from "@/constants.ts";
+import { FINISH_LINE_PERCENTAGE, LANE_HEIGHT } from "@/constants";
 
 const statusTextMap: Record<RaceStatus, string> = {
   [RaceStatus.IDLE]: 'Ready',
